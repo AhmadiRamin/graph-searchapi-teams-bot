@@ -50,23 +50,6 @@ Make sure you've downloaded and installed the ngrok on your local machine. ngrok
     
 	 NOTE: A free Ngrok plan will generate a new URL every time you run it, which requires you to update your Azure AD registration, the Teams app manifest, and the project configuration. A paid account with a permanent Ngrok URL is recommended.
 
-## Solution
-
-Solution|Author(s)
---------|---------
-bot-microsoft-search-api | [Ramin Ahmadi](https://ramin.expert)
-
-## Version history
-
-Version|Date|Comments
--------|----|--------
-1.0|March 13, 2023|Initial release
-
-## Disclaimer
-
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
-
----
 
 ## Minimal Path to Awesome
 
