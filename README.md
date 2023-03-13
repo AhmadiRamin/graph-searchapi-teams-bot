@@ -1,4 +1,5 @@
-﻿# Microsoft Graph Search API Bot
+﻿[![Hack Together: Microsoft Graph and .NET](https://img.shields.io/badge/Microsoft%20-Hack--Together-orange?style=for-the-badge&logo=microsoft)](https://github.com/microsoft/hack-together)
+# Microsoft Graph Search API Bot
 
 Using this C# sample, a bot can retreive different entities such as messages, events, files, and SharePoint list items using Microsoft Graph Search API, and display the resutls in adaptive cards with paging capability.
 
@@ -24,16 +25,18 @@ Some of the bot's features:
 
 ![MessagingExtensionCard](./Assets/MessagingExtensionCard.png)
 
+
 ## Frameworks
 
 ![drop](https://img.shields.io/badge/.NET&nbsp;Core-3.1-green.svg)
 ![drop](https://img.shields.io/badge/Bot&nbsp;Framework-4.0-green.svg)
-
+![drop](https://img.shields.io/badge/Graph%20.Net%20SDK-4.25.0-green)
 ## Prerequisites
 
 * [Office 365 tenant](https://developer.microsoft.com/en-us/microsoft-365/dev-program)
 * Microsoft Teams is installed and you have an account.
 * [.NET Core SDK](https://dotnet.microsoft.com/download) version 3.1
+* [Graph .Net SDK](https://github.com/microsoftgraph/msgraph-sdk-dotnet)
 
   ```bash
   # determine dotnet version
@@ -57,7 +60,7 @@ bot-microsoft-search-api | [Ramin Ahmadi](https://ramin.expert)
 
 Version|Date|Comments
 -------|----|--------
-1.0|May 5, 2022|Initial release
+1.0|March 13, 2023|Initial release
 
 ## Disclaimer
 
@@ -177,5 +180,4 @@ Below are the references used while developing this sample:
 - [Search Messages](https://docs.microsoft.com/en-us/graph/search-concept-messages)
 - [Search Events](https://docs.microsoft.com/en-us/graph/search-concept-events)
 - [Search content in OneDrive and SharePoint ](https://docs.microsoft.com/en-us/graph/search-concept-files)
-
-<img src="https://telemetry.sharepointpnp.com/teams-dev-samples/samplesbot-microsoft-search-api" />
+- [Graph .Net SDK](https://github.com/microsoftgraph/msgraph-sdk-dotnet)
